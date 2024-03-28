@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Your logo goes here -->
+      <img src="logo.png" alt="Travel Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#our-packages">Our Packages</a></li>
+        <li><a href="#footer">Call Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main-content" id="home">
+    <h1>Your Trusted Travel Agent's</h1>
+    <p style="color: grey;">Your happiness is our happiness</p>
+    
+    <div class="content-container">
+      <div class="info">
+        <div class="gallery-box">
+          <img src="galery.png" alt="Gallery Logo">
+        </div>
+        <p>Liburan jadi menyenangkan bersama Travel Agenku</p>
+        <div class="profile">
+          <img src="person.png" alt="Profile Picture">
+          <div class="profile-info">
+            <h2>Florence Hughes</h2>
+            <p class="subtitle">Ibu Rumah Tangga, 28</p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required>
+          <label for="interest">What are you interested in?</label>
+          <select id="interest" name="interest" required>
+            <option value="" disabled selected>Select an option</option>
+            <option value="Package Inquiry">Package Inquiry</option>
+            <option value="Booking Assistance">Booking Assistance</option>
+            <option value="General Inquiry">General Inquiry</option>
+          </select>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="separator" id="our-packages">
+    <h1 style="margin-top: 0; margin-bottom: 20px; text-align: center;">Our Packages</h1>
+    <div class="packages">
+      <div class="package">
+        <h2>Bali</h2>
+        <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner terbaik.</p>
+      </div>
+      <div class="package">
+        <h2>Japan</h2>
+        <p>Travel dan wisata di Jepang. Kunjungi cagar budaya dan kuliner terbaik.</p>
+      </div>
+      <div class="package">
+        <h2>Singapore</h2>
+        <p>Travel dan wisata di Singapura. Kunjungi cagar budaya dan kuliner terbaik.</p>
+      </div>
+      <div class="package">
+        <h2>Bandung</h2>
+        <p>Travel dan wisata di Bandung. Kunjungi cagar budaya dan kuliner terbaik.</p>
+      </div>
+      <div class="package">
+        <h2>Surabaya</h2>
+        <p>Travel dan wisata di Surabaya. Kunjungi cagar budaya dan kuliner terbaik.</p>
+      </div>
+      <div class="package">
+        <h2>Third Feature</h2>
+        <p>Deskripsi paket perjalanan untuk fitur ketiga.</p>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    <h2>Your Closing Argument Headline</h2>
+    <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio val erat fringilla.</p>
+    <button class="call-to-action">CALL TO ACTION</button>
+    <div class="footer-bottom">
+        <p>Terms of Service Privacy Policy</p>
+        <div>
+          <p>&copy; 2019 Moquqs</p>
+        </div>
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
