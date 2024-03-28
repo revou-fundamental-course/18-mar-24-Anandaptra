@@ -52,7 +52,8 @@ body {
     background-color: lightgrey;
     height: 60px;
     margin-top: 40px;
-  }
+    margin-bottom: 50px; /* Menambah jarak antara Our Packages dan footer */
+}
   
   /* Home Page CSS */
   .content-container {
@@ -143,25 +144,27 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-  }
+    margin-bottom: 100px; /* Menambahkan margin-bottom agar ada jarak dengan footer */
+}
   
   .package {
     padding: 20px;
     text-align: center;
     width: calc(33.33% - 16px); /* 33.33% untuk 3 kolom */
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 
   /* Footer CSS */
   footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px; /* Mengurangi tinggi padding */
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+    margin-top: 20px;
+}
   
   footer h2 {
     margin-top: 0;
