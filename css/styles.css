@@ -1,4 +1,4 @@
-/* Global CSS */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -52,7 +52,7 @@ body {
     background-color: lightgrey;
     height: 60px;
     margin-top: 40px;
-    margin-bottom: 50px; /* Menambah jarak antara Our Packages dan footer */
+    margin-bottom: 50px; 
 }
   
   /* Home Page CSS */
@@ -144,13 +144,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 20px;
-    margin-bottom: 100px; /* Menambahkan margin-bottom agar ada jarak dengan footer */
+    margin-bottom: 100px; 
 }
   
   .package {
     padding: 20px;
     text-align: center;
-    width: calc(33.33% - 16px); /* 33.33% untuk 3 kolom */
+    width: calc(33.33% - 16px); 
     margin-bottom: 100px;
   }
 
@@ -158,7 +158,7 @@ body {
   footer {
     background-color: #333;
     color: #fff;
-    padding: 10px; /* Mengurangi tinggi padding */
+    padding: 10px; 
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -175,7 +175,7 @@ body {
   }
   
   footer button {
-    background-color: black; /* Mengubah latar belakang tombol menjadi hitam */
+    background-color: black; 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -186,5 +186,5 @@ body {
   }
   
   footer button:hover {
-    background-color: #333; /* Mengubah warna latar belakang tombol saat dihover */
+    background-color: #333; 
   }
